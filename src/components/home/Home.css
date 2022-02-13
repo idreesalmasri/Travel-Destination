@@ -1,0 +1,7 @@
+#main {
+    background-color: cornflowerblue;
+}
+#wrap{
+    flex-wrap: wrap;
+    display: flex;
+}
