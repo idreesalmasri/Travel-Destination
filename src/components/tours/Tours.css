@@ -1,0 +1,22 @@
+img{
+    
+    height: 200px;
+    width: 350px;
+  }
+  p{
+    font-size: 15px;
+    text-align: center;
+    
+  }
+  #card{
+      
+    
+      padding: 20px;
+      margin: 5px;
+      width:fit-content;
+  }
+  #wrap{
+    flex-wrap: wrap;
+    display: flex;
+  }
+
