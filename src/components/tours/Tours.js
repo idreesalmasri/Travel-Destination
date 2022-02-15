@@ -1,5 +1,6 @@
 import "./Tours.css";
 import Tour from "./tour/tour";
+import { Link } from "react-router-dom";
 export default function Tours(props){
     // console.log(props.passedData);
     return(
@@ -7,7 +8,9 @@ export default function Tours(props){
         {
          props.passedData.map(ele=>{
              return(
-                <Tour passedData2={ele}/>
+                <Link to={`/city/${ele.id}`}>
+                <Tour key={ele.id} passedData2={ele}/>
+                </Link>
              );
          })   
         }
